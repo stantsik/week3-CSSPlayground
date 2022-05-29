@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+
+/** - all elements*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(199, 201, 149, 0.813) ;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.title-container {
+    padding: 1rem 0;
+}
+
+.title-container h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.descripttion-contaner {
+    padding: 0 1rem;
+}
+
+.descripttion-contaner p {
+    color: #333;
+    font-size: 1,3rem;
+    letter-spacing: 0,1rem;
+    line-height: 1,8rem;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 5%;
+}
+
+
+.table-container {
+    width: 75% ;
+    margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#td-valmistamine {
+    padding-left: 3rem;
+}
+
+#td-valmistamine ul li:first-child {
+    margin-top: 2rem;
+}
+
+#td-valmistamine ul li {
+    margin-bottom: 2rem;
+
+}
+
+#td-valmistamine ul li span {
+    font-weight: bold;
+    font-size: 1,2rem;
+    text-transform: uppercase;
+}
+
+#td-koostisosad { 
+    text-align: right;
+}
+
+#td-koostisosad ul li:first-child {
+    margin-top: 0,8rem;
+}
+
+#td-koostisosad ul li {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    padding-bottom: 3rem;
+}
+
+.footer ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:first-child {
+    margin-right: 5rem;
+}
+
+.footer ul li:last-child {
+    margin-left: 5rem;
+}
+
+.footer ul li a {
+    color: #777;
+    font-size: 3rem;
+}
+
